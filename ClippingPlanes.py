@@ -1,3 +1,6 @@
+#BASED ON CODE PROVIDED BY DR. TIM MCGRAW, PURDUE UNIVERSITY
+#I did not write 100% of this code by myself
+
 import vtk
 useDataRoot = False
 
@@ -55,7 +58,7 @@ outlineMapper.SetInputConnection(outline.GetOutputPort())
 outlineActor = vtk.vtkActor()
 outlineActor.SetMapper(outlineMapper)
 
-#LAB5 additions HERE!!!!!!!!!!!!!!!!!!!!!!!
+#needed lab changes here
 isovalues = [500, 1500]
 
 mc_contour = [vtk.vtkMarchingCubes(), vtk.vtkMarchingCubes()]
