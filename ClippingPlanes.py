@@ -1,5 +1,5 @@
 #BASED ON CODE PROVIDED BY DR. TIM MCGRAW, PURDUE UNIVERSITY
-#I did not write 100% of this code by myself
+#I did not write 100% of this code by myself, it is a lab assignment for Dr. McGraw's course
 
 import vtk
 useDataRoot = False
